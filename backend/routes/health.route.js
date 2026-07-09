@@ -7,7 +7,7 @@ router.get('/', (req, res) => {
     message: 'Server is healthy',
     data: {
       uptime: process.uptime(),
-      timestamp: new Date().toISOString(),
+      timestamp: new Date().toISOString().split('T')[0],
       environment: process.env.NODE_ENV,
     },
   });
