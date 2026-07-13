@@ -1,19 +1,46 @@
 class ApiResponse {
-  static success(res, message, data = null, status = 200) {
-    return res.status(status).json({
+  constructor({
+    success = true,
+    statusCode = 200,
+    message = "Success",
+    data = null,
+    meta = null,
+  } = {}) {
+    this.success = success;
+    this.statusCode = statusCode;
+    this.message = message;
+    this.data = data;
+
+    if (meta) {
+      this.meta = meta;
+    }
+  }
+
+  static success(data = null, message = "Success", statusCode = 200, meta = null) {
+    return new ApiResponse({
       success: true,
+      statusCode,
       message,
       data,
-      error: null,
+      meta,
     });
   }
 
-  static error(res, message, error = null, status = 500) {
-    return res.status(status).json({
-      success: false,
+  static created(data = null, message = "Created") {
+    return new ApiResponse({
+      success: true,
+      statusCode: 201,
+      message,
+      data,
+    });
+  }
+
+  static noContent(message = "No Content") {
+    return new ApiResponse({
+      success: true,
+      statusCode: 204,
       message,
       data: null,
-      error,
     });
   }
 }

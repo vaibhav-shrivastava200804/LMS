@@ -1,15 +1,25 @@
-import logger from '../config/logger.js';
-import ApiResponse from '../utils/ApiResponse.js';
+import HTTP_STATUS from "../constants/httpStatus.js";
+import logger from "../config/logger.js";
 
 const errorHandler = (err, req, res, next) => {
-  logger.error(err);
-  const status = err.statusCode || 500;
-  return ApiResponse.error(
-    res,
-    err.message || 'Internal Server Error',
-    process.env.NODE_ENV === 'development' ? err.stack : null,
-    status,
-  );
+  const statusCode =
+    err.statusCode || HTTP_STATUS.INTERNAL_SERVER_ERROR;
+
+  logger.error({
+    message: err.message,
+    statusCode,
+    method: req.method,
+    url: req.originalUrl,
+    ip: req.ip,
+    stack: err.stack,
+  });
+
+  return res.status(statusCode).json({
+    success: false,
+    statusCode,
+    message: err.message || "Internal Server Error",
+    errors: err.errors || [],
+  });
 };
 
 export default errorHandler;
