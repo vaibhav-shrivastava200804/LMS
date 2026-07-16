@@ -12,7 +12,9 @@ const env = {
     username: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
   },
-
+  bcrypt: {
+    saltRounds: Number(process.env.BCRYPT_SALT_ROUNDS) || 10,
+  },
   jwt: {
     secret: process.env.JWT_SECRET,
     expiresIn: process.env.JWT_EXPIRES_IN,

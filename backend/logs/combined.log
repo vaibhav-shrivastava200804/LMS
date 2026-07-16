@@ -293,3 +293,146 @@
 {"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:39:45.227Z"}
 {"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:39:45.228Z"}
 {"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:39:45.228Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:49:49.117Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:49:49.123Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:49:49.123Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:49:49.124Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:49:49.124Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:49:55.637Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:49:55.645Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:49:55.645Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:49:55.646Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:49:55.646Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:50:28.813Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:50:28.821Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:50:28.822Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:50:28.822Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:50:28.823Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:50:31.711Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:50:31.719Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:50:31.720Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:50:31.720Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:50:31.721Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:53:04.875Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:53:04.883Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:53:04.884Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:53:04.884Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:53:04.885Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:02:28.231Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:02:28.237Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:02:28.238Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:02:28.238Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:02:28.238Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:08:32.596Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:08:32.604Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:08:32.604Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:08:32.605Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:08:32.605Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:09:29.492Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:09:29.500Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:09:29.501Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:09:29.501Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:09:29.502Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:11:57.454Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:11:57.460Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:11:57.460Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:11:57.461Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:11:57.461Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:13:35.027Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:13:35.035Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:13:35.035Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:13:35.036Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:13:35.036Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:13:49.904Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:13:49.911Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:13:49.912Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:13:49.912Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:13:49.913Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:13:53.642Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:13:53.650Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:13:53.651Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:13:53.651Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:13:53.652Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:14:41.744Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:14:41.752Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:14:41.752Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:14:41.753Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:14:41.753Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:14:43.775Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:14:43.782Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:14:43.783Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:14:43.783Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:14:43.784Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:14:53.595Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:14:53.603Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:14:53.604Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:14:53.605Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:14:53.605Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:16:22.590Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:16:22.597Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:16:22.598Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:16:22.598Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:16:22.601Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:16:28.864Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:16:28.871Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:16:28.872Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:16:28.872Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:16:28.873Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:17:24.496Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:17:24.502Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:17:24.503Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:17:24.503Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:17:24.503Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:17:45.410Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:17:45.418Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:17:45.418Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:17:45.419Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:17:45.419Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:19:23.116Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:19:23.123Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:19:23.123Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:19:23.123Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:19:23.124Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:23:14.693Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:23:14.699Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:23:14.700Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:23:14.700Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:23:14.700Z"}
+{"ip":"::1","level":"error","message":"Default role not found.","method":"POST","stack":"ApiError: Default role not found.\n    at AuthService.register (file:///Users/vaibhav2009/Desktop/LMS/backend/services/auth.service.js:46:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/vaibhav2009/Desktop/LMS/backend/controllers/auth.controller.js:11:18","statusCode":404,"timestamp":"2026-07-16T18:26:29.519Z","url":"/api/v1/auth/register"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:28:08.673Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:28:08.680Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:28:08.681Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:28:08.681Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:28:08.682Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:28:11.658Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:28:11.665Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:28:11.665Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:28:11.666Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:28:11.666Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:28:32.783Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:28:32.791Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:28:32.792Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:28:32.792Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:28:32.793Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:28:46.081Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:28:46.085Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:28:46.086Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:28:46.086Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:28:46.086Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:28:48.586Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:28:48.592Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:28:48.593Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:28:48.593Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:28:48.594Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:28:54.353Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:28:54.358Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:28:54.359Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:28:54.359Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:28:54.359Z"}
+{"ip":"::1","level":"error","message":"Default role not found.","method":"POST","stack":"ApiError: Default role not found.\n    at AuthService.register (file:///Users/vaibhav2009/Desktop/LMS/backend/services/auth.service.js:46:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/vaibhav2009/Desktop/LMS/backend/controllers/auth.controller.js:11:18","statusCode":404,"timestamp":"2026-07-16T18:29:41.861Z","url":"/api/v1/auth/register"}
+{"ip":"::1","level":"error","message":"Cannot read properties of undefined (reading 'saltRounds')","method":"POST","stack":"TypeError: Cannot read properties of undefined (reading 'saltRounds')\n    at AuthService.register (file:///Users/vaibhav2009/Desktop/LMS/backend/services/auth.service.js:55:20)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///Users/vaibhav2009/Desktop/LMS/backend/controllers/auth.controller.js:11:18","statusCode":500,"timestamp":"2026-07-16T18:31:58.076Z","url":"/api/v1/auth/register"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T18:36:09.238Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T18:36:09.243Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T18:36:09.244Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T18:36:09.244Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T18:36:09.244Z"}

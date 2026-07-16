@@ -5,6 +5,7 @@ import errorHandler from '../middlewares/errorHandler.js';
 import ApiError from '../utils/ApiError.js';
 import HTTP_STATUS from '../constants/httpStatus.js';
 import asyncHandler from '../middlewares/asyncHandler.js';
+import authRouter from "./auth.route.js";
 
 const router = Router();
 router.use('/health', healthRouter);
@@ -47,4 +48,6 @@ router.get( "/test", asyncHandler(async (req, res) => {
 
     })
 );
+
+router.use("/auth",authRouter);
 export default router;
