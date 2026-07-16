@@ -1,3 +1,7 @@
+import appConfig from "../config/app.config.js";
+
+const apiServerUrl = `${appConfig.baseUrl}${appConfig.apiPrefix}`;
+
 const swaggerDefinition = {
   openapi: "3.0.3",
   info: {
@@ -8,8 +12,11 @@ const swaggerDefinition = {
 
   servers: [
     {
-      url: `http://localhost:${process.env.PORT || 5000}/api/v1`,
-      description: "Development Server",
+      url: apiServerUrl,
+      description:
+        appConfig.env === "production"
+          ? "Production Server"
+          : "Development Server",
     },
   ],
 

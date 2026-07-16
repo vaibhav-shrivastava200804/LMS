@@ -288,3 +288,8 @@
 {"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:34:14.822Z"}
 {"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:34:14.823Z"}
 {"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:34:14.823Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:39:45.225Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:39:45.227Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:39:45.227Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:39:45.228Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:39:45.228Z"}
