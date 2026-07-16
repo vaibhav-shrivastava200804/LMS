@@ -1,6 +1,17 @@
 import { Router } from 'express';
 const router = Router();
 
+/**
+ * @swagger
+ * /health:
+ *   get:
+ *     summary: Check API health
+ *     tags:
+ *       - Health
+ *     responses:
+ *       200:
+ *         description: Server health status returned successfully
+ */
 router.get('/', (req, res) => {
   res.status(200).json({
     success: true,

@@ -9,6 +9,18 @@ import asyncHandler from '../middlewares/asyncHandler.js';
 const router = Router();
 router.use('/health', healthRouter);
 router.use("",homePageRouter)
+
+/**
+ * @swagger
+ * /error:
+ *   get:
+ *     summary: Trigger a test synchronous error
+ *     tags:
+ *       - Debug
+ *     responses:
+ *       400:
+ *         description: Test error returned by the global error handler
+ */
 router.get("/error", (req, res) => {
     throw new ApiError(
         HTTP_STATUS.BAD_REQUEST,
@@ -16,6 +28,17 @@ router.get("/error", (req, res) => {
     );
 });
 
+/**
+ * @swagger
+ * /test:
+ *   get:
+ *     summary: Trigger a test async error
+ *     tags:
+ *       - Debug
+ *     responses:
+ *       400:
+ *         description: Test async error returned by the global error handler
+ */
 router.get( "/test", asyncHandler(async (req, res) => {
         throw new ApiError(
             400,
