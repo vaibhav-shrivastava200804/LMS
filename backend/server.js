@@ -15,7 +15,7 @@ const start = async () => {
       logger.info(`Server started successfully.`);
       logger.info(`Environment : ${env.nodeEnv}`);
       logger.info(`Port        : ${env.port}`);
-      logger.info(`API Base    : http://localhost:${env.port}/api/v1`);
+      logger.info(`API Base    : http://localhost:${env.port}/`);
     });
 
     process.on("SIGINT", () => {
@@ -34,3 +34,4 @@ const start = async () => {
 };
 
 start();
+

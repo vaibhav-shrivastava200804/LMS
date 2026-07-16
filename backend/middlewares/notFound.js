@@ -1,12 +1,13 @@
-import ApiResponse from '../utils/ApiResponse.js';
+import HTTP_STATUS from "../constants/httpStatus.js";
 
 const notFound = (req, res) => {
-  return ApiResponse.error(
-    res,
-    `Cannot ${req.method} ${req.originalUrl}`,
-    null,
-    404,
-  );
+  return res.status(HTTP_STATUS.NOT_FOUND).json({
+    success: false,
+    statusCode: HTTP_STATUS.NOT_FOUND,
+    message: `Cannot ${req.method} ${req.originalUrl}`,
+    errors: [],
+  });
 };
 
 export default notFound;
+

@@ -131,3 +131,155 @@
 {"level":"info","message":"Environment : development","timestamp":"2026-07-13T18:35:42.588Z"}
 {"level":"info","message":"Port        : 3000","timestamp":"2026-07-13T18:35:42.589Z"}
 {"level":"info","message":"API Base    : http://localhost:3000/api/v1","timestamp":"2026-07-13T18:35:42.589Z"}
+<<<<<<< HEAD
+=======
+{"ip":"::1","level":"error","message":"Testing async handler","method":"GET","stack":"ApiError: Testing async handler\n    at file:///Users/vaibhav2009/Desktop/LMS/backend/routes/index.js:20:15\n    at file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/asyncHandler.js:3:21\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/route.js:117:3)\n    at handle (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:295:15\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)","statusCode":400,"timestamp":"2026-07-14T21:01:19.829Z","url":"/test"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-14T21:01:19.920Z","url":"/favicon.ico"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:16:32.354Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:16:32.362Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:16:32.362Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:16:32.363Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/api/v1","timestamp":"2026-07-16T16:16:32.363Z"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:16:51.853Z","url":"/api/v1"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:16:51.862Z","url":"/api/v1"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:16:51.868Z","url":"/api/v1"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:16:52.348Z","url":"/favicon.ico"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:16:52.356Z","url":"/favicon.ico"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:16:52.417Z","url":"/favicon.ico"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:18:55.801Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:18:55.809Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:18:55.809Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:18:55.810Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:18:55.811Z"}
+{"ip":"::1","level":"error","message":"ApiResponse.error is not a function","method":"GET","stack":"TypeError: ApiResponse.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:4:22)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:18:58.175Z","url":"/favicon.ico"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:21:46.685Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:21:46.692Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:21:46.693Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:21:46.693Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:21:46.693Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:23:28.140Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:23:28.147Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:23:28.148Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:23:28.148Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:23:28.148Z"}
+{"ip":"::1","level":"error","message":"ApiError.error is not a function","method":"GET","stack":"TypeError: ApiError.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:5:19)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:23:33.987Z","url":"/home"}
+{"ip":"::1","level":"error","message":"ApiError.error is not a function","method":"GET","stack":"TypeError: ApiError.error is not a function\n    at notFound (file:///Users/vaibhav2009/Desktop/LMS/backend/middlewares/notFound.js:5:19)\n    at Layer.handleRequest (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/lib/layer.js:152:17)\n    at trimPrefix (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:342:13)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:297:9\n    at processParams (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:582:12)\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:291:5)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)\n    at /Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:688:15\n    at next (/Users/vaibhav2009/Desktop/LMS/backend/node_modules/router/index.js:276:14)","statusCode":500,"timestamp":"2026-07-16T16:23:34.033Z","url":"/favicon.ico"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:23:49.769Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:23:49.775Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:23:49.777Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:23:49.777Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:23:49.777Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:23:54.488Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:23:54.496Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:23:54.496Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:23:54.497Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:23:54.497Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:24:00.075Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:24:00.080Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:24:00.080Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:24:00.080Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:24:00.080Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:26:56.398Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:26:56.406Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:26:56.406Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:26:56.407Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:26:56.407Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:35:26.080Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:35:26.083Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:35:26.084Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:35:26.084Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:35:26.084Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:35:59.087Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:35:59.093Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:35:59.093Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:35:59.094Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:35:59.094Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:36:09.932Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:36:09.937Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:36:09.937Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:36:09.938Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:36:09.938Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:36:28.754Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:36:28.762Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:36:28.762Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:36:28.763Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:36:28.763Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:37:28.352Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:37:28.359Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:37:28.360Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:37:28.360Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:37:28.360Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:40:32.713Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:40:32.720Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:40:32.721Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:40:32.721Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:40:32.721Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:48:47.954Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:48:47.960Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:48:47.960Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:48:47.961Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:48:47.961Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:51:47.417Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:51:47.423Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:51:47.423Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:51:47.424Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:51:47.424Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:55:39.016Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:55:39.021Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:55:39.021Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:55:39.021Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:55:39.021Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:55:48.686Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:56:44.883Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:56:44.890Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:56:44.891Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:56:44.891Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:56:44.891Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:59:19.034Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:59:19.040Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:59:19.040Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:59:19.041Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:59:19.041Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:59:24.260Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T16:59:24.267Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T16:59:24.268Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T16:59:24.269Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T16:59:24.269Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:59:30.908Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T16:59:51.538Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:00:14.343Z"}
+{"level":"info","message":"Gracefully shutting down...","timestamp":"2026-07-16T17:00:17.457Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:00:37.080Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:00:37.088Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:00:37.089Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:00:37.090Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:00:37.090Z"}
+{"level":"info","message":"Gracefully shutting down...","timestamp":"2026-07-16T17:01:23.544Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:01:50.569Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:01:50.577Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:01:50.577Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:01:50.578Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:01:50.578Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:05:46.721Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:05:46.728Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:05:46.729Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:05:46.729Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:05:46.729Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:05:49.539Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:05:49.542Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:05:49.543Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:05:49.543Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:05:49.543Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:05:55.738Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:05:55.741Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:05:55.741Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:05:55.741Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:05:55.741Z"}
+>>>>>>> 58f3195 (feat swagger)
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:23:28.733Z"}
+{"level":"info","message":"Server started successfully.","timestamp":"2026-07-16T17:23:28.740Z"}
+{"level":"info","message":"Environment : development","timestamp":"2026-07-16T17:23:28.741Z"}
+{"level":"info","message":"Port        : 3000","timestamp":"2026-07-16T17:23:28.742Z"}
+{"level":"info","message":"API Base    : http://localhost:3000/","timestamp":"2026-07-16T17:23:28.742Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:23:45.361Z"}
+{"level":"info","message":"MySQL Connected","timestamp":"2026-07-16T17:24:10.394Z"}

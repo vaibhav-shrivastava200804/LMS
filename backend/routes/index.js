@@ -7,7 +7,7 @@ import HTTP_STATUS from '../constants/httpStatus.js';
 import asyncHandler from '../middlewares/asyncHandler.js';
 
 const router = Router();
-router.use('/api/health', healthRouter);
+router.use('/health', healthRouter);
 router.use("",homePageRouter)
 router.get("/error", (req, res) => {
     throw new ApiError(

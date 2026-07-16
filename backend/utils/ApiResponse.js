@@ -43,6 +43,16 @@ class ApiResponse {
       data: null,
     });
   }
+
+  static error(message = "Something went wrong", statusCode = 500, data = null) {
+    return new ApiResponse({
+      success: false,
+      statusCode,
+      message,
+      data,
+    });
+  }
 }
 
 export default ApiResponse;
+

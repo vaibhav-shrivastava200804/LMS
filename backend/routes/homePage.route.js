@@ -1,6 +1,17 @@
 import { Router } from 'express';
 const router = Router();
 
+/**
+ * @swagger
+ * /:
+ *   get:
+ *     summary: Load API home page
+ *     tags:
+ *       - Home
+ *     responses:
+ *       200:
+ *         description: Home page loaded successfully
+ */
 router.get('/', (req, res) => {
   res.status(200).json({
     success: true,

@@ -11,15 +11,14 @@ import requestLogger from "./middlewares/requestLogger.js";
 import rateLimiter from "./middlewares/rateLimiter.js";
 import errorHandler from "./middlewares/errorHandler.js";
 import notFound from "./middlewares/notFound.js";
+import swaggerSetup from "./swagger/swagger.js";
 
 const app = express();
 
 app.set("trust proxy", 1);
 
 app.use(helmet());
-
 app.use(cors(corsOptions));
-
 app.use(compression());
 
 app.use(
@@ -36,15 +35,16 @@ app.use(
 );
 
 app.use(cookieParser());
-
 app.use(requestLogger);
-
 app.use(rateLimiter);
 
-app.use("/", routes);
+swaggerSetup(app);
+
+// API base
+app.use("/api/v1", routes);
 
 app.use(notFound);
-
 app.use(errorHandler);
 
 export default app;
+
